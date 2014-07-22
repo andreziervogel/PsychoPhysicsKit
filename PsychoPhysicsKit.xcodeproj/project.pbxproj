@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6530C049197EB1C8001ABCA3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530C048197EB1C8001ABCA3 /* Cocoa.framework */; };
+		6530C053197EB1C8001ABCA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6530C051197EB1C8001ABCA3 /* InfoPlist.strings */; };
+		6530C057197EB1C8001ABCA3 /* PsychoPhysicsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530C056197EB1C8001ABCA3 /* PsychoPhysicsKit.m */; };
+		6530C05E197EB1C8001ABCA3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530C05D197EB1C8001ABCA3 /* XCTest.framework */; };
+		6530C05F197EB1C8001ABCA3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530C048197EB1C8001ABCA3 /* Cocoa.framework */; };
+		6530C062197EB1C8001ABCA3 /* PsychoPhysicsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6530C045197EB1C8001ABCA3 /* PsychoPhysicsKit.framework */; };
+		6530C068197EB1C8001ABCA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6530C066197EB1C8001ABCA3 /* InfoPlist.strings */; };
+		6530C06A197EB1C8001ABCA3 /* PsychoPhysicsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6530C069197EB1C8001ABCA3 /* PsychoPhysicsKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6530C060197EB1C8001ABCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6530C03C197EB1C8001ABCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6530C044197EB1C8001ABCA3;
+			remoteInfo = PsychoPhysicsKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6530C045197EB1C8001ABCA3 /* PsychoPhysicsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PsychoPhysicsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6530C048197EB1C8001ABCA3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6530C04B197EB1C8001ABCA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6530C04C197EB1C8001ABCA3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6530C04D197EB1C8001ABCA3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6530C050197EB1C8001ABCA3 /* PsychoPhysicsKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PsychoPhysicsKit-Info.plist"; sourceTree = "<group>"; };
+		6530C052197EB1C8001ABCA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6530C054197EB1C8001ABCA3 /* PsychoPhysicsKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PsychoPhysicsKit-Prefix.pch"; sourceTree = "<group>"; };
+		6530C055197EB1C8001ABCA3 /* PsychoPhysicsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychoPhysicsKit.h; sourceTree = "<group>"; };
+		6530C056197EB1C8001ABCA3 /* PsychoPhysicsKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychoPhysicsKit.m; sourceTree = "<group>"; };
+		6530C05C197EB1C8001ABCA3 /* PsychoPhysicsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychoPhysicsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6530C05D197EB1C8001ABCA3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6530C065197EB1C8001ABCA3 /* PsychoPhysicsKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PsychoPhysicsKitTests-Info.plist"; sourceTree = "<group>"; };
+		6530C067197EB1C8001ABCA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6530C069197EB1C8001ABCA3 /* PsychoPhysicsKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychoPhysicsKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6530C041197EB1C8001ABCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530C049197EB1C8001ABCA3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530C059197EB1C8001ABCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530C062197EB1C8001ABCA3 /* PsychoPhysicsKit.framework in Frameworks */,
+				6530C05F197EB1C8001ABCA3 /* Cocoa.framework in Frameworks */,
+				6530C05E197EB1C8001ABCA3 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6530C03B197EB1C8001ABCA3 = {
+			isa = PBXGroup;
+			children = (
+				6530C04E197EB1C8001ABCA3 /* PsychoPhysicsKit */,
+				6530C063197EB1C8001ABCA3 /* PsychoPhysicsKitTests */,
+				6530C047197EB1C8001ABCA3 /* Frameworks */,
+				6530C046197EB1C8001ABCA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6530C046197EB1C8001ABCA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6530C045197EB1C8001ABCA3 /* PsychoPhysicsKit.framework */,
+				6530C05C197EB1C8001ABCA3 /* PsychoPhysicsKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6530C047197EB1C8001ABCA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6530C048197EB1C8001ABCA3 /* Cocoa.framework */,
+				6530C05D197EB1C8001ABCA3 /* XCTest.framework */,
+				6530C04A197EB1C8001ABCA3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6530C04A197EB1C8001ABCA3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6530C04B197EB1C8001ABCA3 /* Foundation.framework */,
+				6530C04C197EB1C8001ABCA3 /* CoreData.framework */,
+				6530C04D197EB1C8001ABCA3 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6530C04E197EB1C8001ABCA3 /* PsychoPhysicsKit */ = {
+			isa = PBXGroup;
+			children = (
+				6530C055197EB1C8001ABCA3 /* PsychoPhysicsKit.h */,
+				6530C056197EB1C8001ABCA3 /* PsychoPhysicsKit.m */,
+				6530C04F197EB1C8001ABCA3 /* Supporting Files */,
+			);
+			path = PsychoPhysicsKit;
+			sourceTree = "<group>";
+		};
+		6530C04F197EB1C8001ABCA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6530C050197EB1C8001ABCA3 /* PsychoPhysicsKit-Info.plist */,
+				6530C051197EB1C8001ABCA3 /* InfoPlist.strings */,
+				6530C054197EB1C8001ABCA3 /* PsychoPhysicsKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6530C063197EB1C8001ABCA3 /* PsychoPhysicsKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6530C069197EB1C8001ABCA3 /* PsychoPhysicsKitTests.m */,
+				6530C064197EB1C8001ABCA3 /* Supporting Files */,
+			);
+			path = PsychoPhysicsKitTests;
+			sourceTree = "<group>";
+		};
+		6530C064197EB1C8001ABCA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6530C065197EB1C8001ABCA3 /* PsychoPhysicsKitTests-Info.plist */,
+				6530C066197EB1C8001ABCA3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6530C042197EB1C8001ABCA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6530C044197EB1C8001ABCA3 /* PsychoPhysicsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6530C06D197EB1C8001ABCA3 /* Build configuration list for PBXNativeTarget "PsychoPhysicsKit" */;
+			buildPhases = (
+				6530C040197EB1C8001ABCA3 /* Sources */,
+				6530C041197EB1C8001ABCA3 /* Frameworks */,
+				6530C042197EB1C8001ABCA3 /* Headers */,
+				6530C043197EB1C8001ABCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PsychoPhysicsKit;
+			productName = PsychoPhysicsKit;
+			productReference = 6530C045197EB1C8001ABCA3 /* PsychoPhysicsKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6530C05B197EB1C8001ABCA3 /* PsychoPhysicsKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6530C070197EB1C8001ABCA3 /* Build configuration list for PBXNativeTarget "PsychoPhysicsKitTests" */;
+			buildPhases = (
+				6530C058197EB1C8001ABCA3 /* Sources */,
+				6530C059197EB1C8001ABCA3 /* Frameworks */,
+				6530C05A197EB1C8001ABCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6530C061197EB1C8001ABCA3 /* PBXTargetDependency */,
+			);
+			name = PsychoPhysicsKitTests;
+			productName = PsychoPhysicsKitTests;
+			productReference = 6530C05C197EB1C8001ABCA3 /* PsychoPhysicsKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6530C03C197EB1C8001ABCA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "General Psychology - Justus Liebig University Giessen";
+				TargetAttributes = {
+					6530C05B197EB1C8001ABCA3 = {
+						TestTargetID = 6530C044197EB1C8001ABCA3;
+					};
+				};
+			};
+			buildConfigurationList = 6530C03F197EB1C8001ABCA3 /* Build configuration list for PBXProject "PsychoPhysicsKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6530C03B197EB1C8001ABCA3;
+			productRefGroup = 6530C046197EB1C8001ABCA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6530C044197EB1C8001ABCA3 /* PsychoPhysicsKit */,
+				6530C05B197EB1C8001ABCA3 /* PsychoPhysicsKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6530C043197EB1C8001ABCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530C053197EB1C8001ABCA3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530C05A197EB1C8001ABCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530C068197EB1C8001ABCA3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6530C040197EB1C8001ABCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530C057197EB1C8001ABCA3 /* PsychoPhysicsKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6530C058197EB1C8001ABCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6530C06A197EB1C8001ABCA3 /* PsychoPhysicsKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6530C061197EB1C8001ABCA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6530C044197EB1C8001ABCA3 /* PsychoPhysicsKit */;
+			targetProxy = 6530C060197EB1C8001ABCA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6530C051197EB1C8001ABCA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6530C052197EB1C8001ABCA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6530C066197EB1C8001ABCA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6530C067197EB1C8001ABCA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6530C06B197EB1C8001ABCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6530C06C197EB1C8001ABCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6530C06E197EB1C8001ABCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsychoPhysicsKit/PsychoPhysicsKit-Prefix.pch";
+				INFOPLIST_FILE = "PsychoPhysicsKit/PsychoPhysicsKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		6530C06F197EB1C8001ABCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsychoPhysicsKit/PsychoPhysicsKit-Prefix.pch";
+				INFOPLIST_FILE = "PsychoPhysicsKit/PsychoPhysicsKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		6530C071197EB1C8001ABCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PsychoPhysicsKit.framework/Versions/A/PsychoPhysicsKit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsychoPhysicsKit/PsychoPhysicsKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PsychoPhysicsKitTests/PsychoPhysicsKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6530C072197EB1C8001ABCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PsychoPhysicsKit.framework/Versions/A/PsychoPhysicsKit";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PsychoPhysicsKit/PsychoPhysicsKit-Prefix.pch";
+				INFOPLIST_FILE = "PsychoPhysicsKitTests/PsychoPhysicsKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6530C03F197EB1C8001ABCA3 /* Build configuration list for PBXProject "PsychoPhysicsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530C06B197EB1C8001ABCA3 /* Debug */,
+				6530C06C197EB1C8001ABCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6530C06D197EB1C8001ABCA3 /* Build configuration list for PBXNativeTarget "PsychoPhysicsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530C06E197EB1C8001ABCA3 /* Debug */,
+				6530C06F197EB1C8001ABCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6530C070197EB1C8001ABCA3 /* Build configuration list for PBXNativeTarget "PsychoPhysicsKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6530C071197EB1C8001ABCA3 /* Debug */,
+				6530C072197EB1C8001ABCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6530C03C197EB1C8001ABCA3 /* Project object */;
+}
